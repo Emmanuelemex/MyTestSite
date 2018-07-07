@@ -211,8 +211,34 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\font-awesome.min.css" />
+    <Content Include="Content\css\nouislider.min.css" />
+    <Content Include="Content\css\slick-theme.css" />
+    <Content Include="Content\css\slick.css" />
+    <Content Include="Content\css\style.css" />
+    <Content Include="Content\img\hotdeal.png" />
+    <Content Include="Content\img\logo.png" />
+    <Content Include="Content\img\product01.png" />
+    <Content Include="Content\img\product02.png" />
+    <Content Include="Content\img\product03.png" />
+    <Content Include="Content\img\product04.png" />
+    <Content Include="Content\img\product05.png" />
+    <Content Include="Content\img\product06.png" />
+    <Content Include="Content\img\product07.png" />
+    <Content Include="Content\img\product08.png" />
+    <Content Include="Content\img\product09.png" />
+    <Content Include="Content\img\shop01.png" />
+    <Content Include="Content\img\shop02.png" />
+    <Content Include="Content\img\shop03.png" />
+    <Content Include="Content\js\bootstrap.min.js" />
+    <Content Include="Content\js\jquery.min.js" />
+    <Content Include="Content\js\jquery.zoom.min.js" />
+    <Content Include="Content\js\main.js" />
+    <Content Include="Content\js\nouislider.min.js" />
+    <Content Include="Content\js\slick.min.js" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
@@ -234,6 +260,9 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <None Include="Views\Home\checkout.cshtml" />
+    <None Include="Views\Home\product.cshtml" />
+    <None Include="Views\Home\store.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -275,11 +304,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="screenshot\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
